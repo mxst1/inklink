@@ -2,6 +2,10 @@
   "expo": {
     "name": "InkLink",
     "slug": "InkLink",
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
