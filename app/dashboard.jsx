@@ -99,7 +99,7 @@ export default function DashboardScreen() {
 		return (
 			<Pressable
 				style={styles.card}
-				onPress={() => router.push(`/canvas/${drawing.id}`)}
+				onPress={() => router.push(`/canvas?id=${drawing.id}`)}
 				onHoverIn={() => setHovered(true)}
 				onHoverOut={() => setHovered(false)}
 			>

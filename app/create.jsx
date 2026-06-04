@@ -74,7 +74,7 @@ export default function CreateScreen() {
 			return;
 		}
 
-		router.push(`/canvas/${drawing.id}`);
+		router.push(`/canvas?id=${drawing.id}`);
 	};
 
 	const inner = (
